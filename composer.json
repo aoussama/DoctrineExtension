@@ -3,7 +3,7 @@
     "description" : "date_dormat and date implementation functions",
     "type" : "doctrine-lib",
     "authors" : [{
-        "name" : "doctrine-extension",
+        "name" : "Arrad Oussama",
         "email" : "arrad.oussama@gmail.com"
     }],
     "keywords" : [
