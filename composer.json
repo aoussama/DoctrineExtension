@@ -1,0 +1,33 @@
+{
+    "name" : "MT/DoctrineExtension",
+    "description" : "date_dormat and date implementation functions",
+    "type" : "doctrine-lib",
+    "authors" : [{
+        "name" : "doctrine-extension",
+        "email" : "arrad.oussama@gmail.com"
+    }],
+    "keywords" : [
+        "doctrine extension"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+        "symfony/symfony": "2.3.*",
+        "doctrine/orm": ">=2.2.3,<2.4-dev",
+        "doctrine/doctrine-bundle": "1.2.*",
+    },
+    "autoload" : {
+        "psr-0" : {
+            "MT\\DoctrineExtension" : ""
+        }
+    },
+    "target-dir" : "MT/DoctrineExtension",
+    "repositories" : [{
+    }],
+    "extra" : {
+    "branch-alias" : {
+            "dev-master" : "1.0"
+        }
+    }
+}
